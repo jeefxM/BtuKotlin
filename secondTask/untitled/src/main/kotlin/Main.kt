@@ -3,11 +3,6 @@ fun main() {
 }
 
 fun converter(str1: String, str2: String){
-    val result = str1.contains(str2.reversed())
-    if(result){
-        println(true)
-    }   else{
-        println(false)
-    }
+    val result: Boolean = str1.contains(str2.reversed())
+    println(result)
 }
-
